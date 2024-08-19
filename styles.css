@@ -1,0 +1,78 @@
+/* Estiliza o header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Estiliza a seção de chamada */
+.chamada {
+  background-color: #f7f7f7;
+  padding: 40px;
+  text-align: center;
+}
+
+.chamada-texto {
+  margin-bottom: 20px;
+}
+
+.chamada-texto h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.chamada-texto p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Estiliza o iframe do vídeo */
+iframe {
+  border: none;
+  width: 100%;
+  height: 315px;
+}
+
+/* Estiliza a seção de categorias */
+.categoria {
+  background-color: #fff;
+  padding: 40px;
+}
+
+.categoria h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.categoria-videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.categoria-videos a {
+  margin: 10px;
+  display: inline-block;
+}
+
+.categoria-videos img {
+  width: 200px;
+  height: 120px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estiliza os links */
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  color: #23527c;
+}
